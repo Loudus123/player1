@@ -1,11 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
    int i, j, k;
    char str[100];
    char rev[100];
-   printf("Enter a string\t");
+   printf("Enter a string");
    scanf("%s", str);
    printf("The original string is %s", str);
    for(i = 0; str[i] != '\0'; i++);
